@@ -1,9 +1,16 @@
 {
   "name": "@soggybag/justincase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utilities for managing string case",
   "repository": "https://github.com/soggybag/justincase",
   "license": "MIT",
   "main": "index.js",
-  "keywords": "JavaScript String Case"
+  "keywords": "JavaScript String Case",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+	"scripts": {
+		"test": "jest"
+	}
 }
