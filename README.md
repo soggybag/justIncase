@@ -1,4 +1,4 @@
 # justIncase
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/soggybag/justincase.svg)
-![npm bundle size](https://img.shields.io/bundlephobia/min/justincase.svg)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@soggybag/justincase.svg)
