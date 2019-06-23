@@ -6,22 +6,43 @@
 
 A library of string functions to help managing case.
 
+## Code samples 
+
 ```
 let hello = "Hello World"
 let foo = "foo bar"
+```
 
+Capitalize the first letter of a string
+```
 console.log(hello.capitalize()) // Hello World
-console.log(foo.capitalize())	// Foo bar
+console.log(foo.capitalize())	  // Foo bar
+```
 
+Capitalize the first letter of all words in a string
+```
 console.log(foo.capitalizeAll()) // Foo Bar
+```
 
-console.log(foo.oddCaps()) // fOo bAr
-console.log(foo.evenCaps()) // FoO BaR
+Alternate case in a string, odd characters will be upper
+```
+console.log(foo.oddCaps())   // fOo bAr
 console.log(hello.oddCaps()) // HElLo WOrLd
+```
 
+Alternate cae with even characters upper
+```
+console.log(foo.evenCaps())  // FoO BaR
+```
+
+Replace all spaces with a hyphen "-"
+```
 console.log(hello.kabobCase()) // Hello-World
-console.log(foo.kabobCase()) // foo-bar
+console.log(foo.kabobCase())   // foo-bar
+```
 
+Replaces all spaces with an underscore "_"
+```
 console.log(hello.snakeCase()) // Hello_World
-console.log(foo.snakeCase()) // foo_bar
+console.log(foo.snakeCase())   // foo_bar
 ```

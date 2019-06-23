@@ -41,5 +41,35 @@ String.prototype.snakeCase = function() {
 	return this.split(' ').join('_')
 }
 
+String.prototype.stripSpaces = function() {
+	
+}
+
+// String.trim() removes white space from the ends
+String.stripExtraSpaces = function() {
+	
+}
+
+
+
+
+
+// -----------------------------------------
+
+// ** Ideas ** 
+
+// * Functions and this *
+
+// function() {} vs () => {} 
+// It's all about -> this
+
+// * IIFE *
+
+// Scope 
+
+// Putting code into IIFE
+// Getting code out of IIFE
+// You could use a class...
+// Generator functions
 
 
