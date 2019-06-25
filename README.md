@@ -4,6 +4,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@soggybag/justincase.svg)
 [![install size](https://packagephobia.now.sh/badge?p=@soggybag/justincase)](https://packagephobia.now.sh/result?p=@soggybag/justincase)
 [![Coverage Status](https://coveralls.io/repos/github/soggybag/justincase/badge.svg?branch=master)](https://coveralls.io/github/soggybag/justincase?branch=master)
+[![Build Status](https://travis-ci.org/soggybag/justincase.svg?branch=master)](https://travis-ci.org/soggybag/justincase)
 
 A library of string functions to help managing case.
 
