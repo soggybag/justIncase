@@ -17,6 +17,8 @@ String.prototype.capitalizeAll = function capitalizeAll() {
   return this.split(' ').map(str => str.capitalize()).join(' ')
 }
 
+// 'My String'.capitalizeAll()
+
 // Alias for toUpperCase
 String.prototype.allCaps = function allCaps() {
   return this.toUpperCase()
