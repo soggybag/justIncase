@@ -40,3 +40,7 @@ test('Strip extra spaces', () => {
   const str = ' Hello    World foo bar '
   expect(str.stripExtraSpaces()).toBe('Hello World foo bar')
 })
+
+test('Hello', () => {
+  expect(String.hello()).toBe('hello world')
+})
