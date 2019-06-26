@@ -39,7 +39,7 @@ test('kabobCas()()', () => {
 
 test('snakeCas()', () => {
   const str = 'foo bar'
-  const newStr = str.kabobCase()
+  const newStr = str.snakeCase()
   expect(newStr).toBe('foo_bar')
 })
 
