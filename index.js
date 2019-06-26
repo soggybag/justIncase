@@ -53,6 +53,10 @@ String.prototype.stripSpaces = function stripSpaces() {
 String.prototype.stripExtraSpaces = function stripExtraSpaces() {
   return this.trim().split(' ').filter(i => i !== '').join(' ')
 }
+
+String.prototype.hello = function () {
+  return 'hello'
+} 
  
 // -----------------------------------------
 
