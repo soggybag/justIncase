@@ -16,7 +16,6 @@
   },
   "scripts": {
     "test": "jest",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
-    "coveralls2": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   }
 }
