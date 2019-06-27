@@ -31,7 +31,7 @@ test('evenCaps()', () => {
   expect(newStr).toBe('FoO BaR')
 })
 
-test('kabobCas()()', () => {
+test('kabobCas()', () => {
   const str = 'foo bar'
   const newStr = str.kabobCase()
   expect(newStr).toBe('foo-bar')

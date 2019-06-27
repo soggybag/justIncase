@@ -4,7 +4,8 @@
   "description": "Utilities for managing string case",
   "repository": "https://github.com/soggybag/justincase",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/justincase.js",
+  "module": "src/index.js",
   "keywords": "JavaScript String Case",
   "dependencies": {},
   "devDependencies": {
