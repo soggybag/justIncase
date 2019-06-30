@@ -1,5 +1,5 @@
 /* eslint-disable semi */
-require('../index.js')
+require('../umd/just-in-case')
 
 test('Capitalize()', () => {
   const str = 'abc'
