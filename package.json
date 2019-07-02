@@ -1,6 +1,6 @@
 {
   "name": "@soggybag/justincase",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Utilities for managing string case",
   "repository": "https://github.com/soggybag/justincase",
   "license": "MIT",
