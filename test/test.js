@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /* eslint-disable semi */
 require('../umd/just-in-case')
 

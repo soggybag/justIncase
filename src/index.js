@@ -1,6 +1,14 @@
 /* eslint-disable no-extend-native */
 /* eslint-disable semi */
-import { capitalize, capitalizeAll, allCaps, oddCaps, evenCaps, kabobCase, snakeCase, stripSpaces, stripExtraSpaces  } from './string-methods'
+import {
+  capitalize,
+  capitalizeAll,
+  allCaps, oddCaps,
+  evenCaps, kabobCase,
+  snakeCase,
+  stripSpaces,
+  stripExtraSpaces,
+} from './string-methods'
 
 // Must use function! (arrow functions won't work here)
 
