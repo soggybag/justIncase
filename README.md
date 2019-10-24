@@ -1,6 +1,7 @@
 # justIncase
 
 
+![FooBar](https://img.shields.io/badge/Foo-Bar-%23f0f)
 ![npm](https://img.shields.io/npm/v/@soggybag/justincase)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/soggybag/justincase.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/@soggybag/justincase.svg)
