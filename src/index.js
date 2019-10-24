@@ -2,6 +2,7 @@
 /* eslint-disable semi */
 import {
   capitalize,
+  capitalizeAll2,
   capitalizeAll,
   allCaps, oddCaps,
   evenCaps, kabobCase,
@@ -14,6 +15,10 @@ import {
 
 // Capitalize first letter
 String.prototype.capitalize = capitalize
+
+String.prototype.capitalize = function() {
+  return capitalizeAll2(this)
+}
 
 // Capitalize all
 String.prototype.capitalizeAll = capitalizeAll

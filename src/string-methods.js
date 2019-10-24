@@ -1,18 +1,30 @@
 // Must use function! (arrow functions won't work here)
 
-// Capitalize first letter
+/** 
+ * Capitalize first letter
+ * @returns String
+ * */
 export function capitalize() {
   return this.charAt(0).toUpperCase() + this.slice(1)
 }
 
-// Capitalize all
+/** 
+ * Capitalize all
+ * @returns String
+ * */
 export function capitalizeAll() {
   return this.split(' ').map(str => str.capitalize()).join(' ')
 }
 
-// 'My String'.capitalizeAll()
 
-// Alias for toUpperCase
+export function capitalizeAll2(str) {
+  return str.split(' ').map(str => str.capitalize()).join(' ')
+}
+
+/** 
+ * Alias for toUpperCase()
+ *  @returns String
+ * */
 export function allCaps() {
   return this.toUpperCase()
 }
