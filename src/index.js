@@ -12,8 +12,7 @@ import {
 
 // Must use function! (arrow functions won't work here)
 
-// Capitalize first letter
-// String.prototype.capitalize = capitalize
+// Added major changes
 
 String.prototype.capitalize = function() {
   return capitalize(this)
