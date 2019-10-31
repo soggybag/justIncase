@@ -1,5 +1,9 @@
 /* eslint-disable no-undef */
 /* eslint-disable semi */
+
+// npm run prepare
+// npm run test
+
 require('../umd/just-in-case')
 
 test('Capitalize()', () => {
@@ -32,13 +36,13 @@ test('evenCaps()', () => {
   expect(newStr).toBe('FoO BaR')
 })
 
-test('kabobCas()', () => {
+test('kabobCase()', () => {
   const str = 'foo bar'
   const newStr = str.kabobCase()
   expect(newStr).toBe('foo-bar')
 })
 
-test('snakeCas()', () => {
+test('snakeCase()', () => {
   const str = 'foo bar'
   const newStr = str.snakeCase()
   expect(newStr).toBe('foo_bar')

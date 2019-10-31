@@ -4,21 +4,16 @@
  * Capitalize first letter
  * @returns String
  * */
-function capitalize() {
-  return this.charAt(0).toUpperCase() + this.slice(1)
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
 /** 
  * Capitalize all
  * @returns String
  * */
-function capitalizeAll() {
-  return this.split(' ').map(str => str.capitalize()).join(' ')
-}
-
-
-function capitalizeAll2(str) {
-  return str.split(' ').map(str => str.capitalize()).join(' ')
+function capitalizeAll(str) {
+  return str.split(' ').map(str => capitalize(str)).join(' ')
 }
 
 /** 
@@ -64,14 +59,17 @@ function stripExtraSpaces() {
 // Must use function! (arrow functions won't work here)
 
 // Capitalize first letter
-String.prototype.capitalize = capitalize;
+// String.prototype.capitalize = capitalize
 
 String.prototype.capitalize = function() {
-  return capitalizeAll2(this)
+  return capitalizeAll(this)
 };
 
 // Capitalize all
-String.prototype.capitalizeAll = capitalizeAll;
+String.prototype.capitalizeAll = function() {
+  return capitalizeAll(this)
+};
+
 
 // 'My String'.capitalizeAll()
 
