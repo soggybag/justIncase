@@ -1,14 +1,19 @@
 {
   "name": "@soggybag/justincase",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Utilities for managing string case",
   "repository": "https://github.com/soggybag/justincase",
   "license": "MIT",
   "main": "umd/just-in-case.js",
   "module": "esm/index.js",
-  "keywords": "JavaScript String Case",
+  "keywords": [
+    "JavaScript",
+    "String",
+    "Case"
+  ],
   "dependencies": {},
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "coveralls": "^3.0.4",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",

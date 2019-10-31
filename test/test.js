@@ -4,7 +4,8 @@
 // npm run prepare
 // npm run test
 
-require('../umd/just-in-case')
+// const just = require('../umd/just-in-case')
+import { randomString } from '../src/index'
 
 test('Capitalize()', () => {
   const str = 'abc'
@@ -57,3 +58,8 @@ test('stripExtraSpaces()', () => {
   const str = ' Hello    World foo bar '
   expect(str.stripExtraSpaces()).toBe('Hello World foo bar')
 })
+
+test('randomString()', () => {
+  const str1 = randomString(3)
+  expect(str1.length).toBe(3)
+}) 

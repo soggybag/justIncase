@@ -2,7 +2,6 @@
 /* eslint-disable semi */
 import {
   capitalize,
-  // capitalizeAll2,
   capitalizeAll,
   allCaps, oddCaps,
   evenCaps, kabobCase,
@@ -17,7 +16,7 @@ import {
 // String.prototype.capitalize = capitalize
 
 String.prototype.capitalize = function() {
-  return capitalizeAll(this)
+  return capitalize(this)
 }
 
 // Capitalize all
@@ -51,6 +50,15 @@ const randomString = (n) => {
   }
 
   return str
-} 
+}
 
-export { randomString }
+export {
+  randomString,
+  capitalize,
+  capitalizeAll,
+  allCaps, oddCaps,
+  evenCaps, kabobCase,
+  snakeCase,
+  stripSpaces,
+  stripExtraSpaces,
+}

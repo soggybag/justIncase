@@ -62,7 +62,7 @@ function stripExtraSpaces() {
 // String.prototype.capitalize = capitalize
 
 String.prototype.capitalize = function() {
-  return capitalizeAll(this)
+  return capitalize(this)
 };
 
 // Capitalize all
@@ -98,4 +98,4 @@ const randomString = (n) => {
   return str
 };
 
-export { randomString };
+export { allCaps, capitalize, capitalizeAll, evenCaps, kabobCase, oddCaps, randomString, snakeCase, stripExtraSpaces, stripSpaces };
