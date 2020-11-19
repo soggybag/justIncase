@@ -1,6 +1,6 @@
 // Must use function! (arrow functions won't work here)
 
-/** 
+/**
  * Capitalize first letter
  * @returns String
  * */
@@ -8,7 +8,7 @@ function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-/** 
+/**
  * Capitalize all
  * @returns String
  * */
@@ -16,7 +16,7 @@ function capitalizeAll(str) {
   return str.split(' ').map(str => capitalize(str)).join(' ')
 }
 
-/** 
+/**
  * Alias for toUpperCase()
  *  @returns String
  * */
@@ -51,6 +51,7 @@ function stripSpaces() {
 
 // String.trim() removes white space from the ends
 function stripExtraSpaces() {
+  // 
   return this.trim().split(' ').filter(i => i !== '').join(' ')
 }
 
@@ -58,8 +59,7 @@ function stripExtraSpaces() {
 
 // Must use function! (arrow functions won't work here)
 
-// Capitalize first letter
-// String.prototype.capitalize = capitalize
+// Added major changes
 
 String.prototype.capitalize = function() {
   return capitalize(this)

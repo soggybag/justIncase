@@ -72,3 +72,9 @@ Replaces all spaces with an underscore "\_"
 
     console.log(hello.snakeCase()) // Hello_World
     console.log(foo.snakeCase())   // foo_bar
+
+## Testing 
+
+Run 
+
+- `npm run test`

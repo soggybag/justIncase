@@ -8,14 +8,14 @@ export default [
       file: 'umd/just-in-case.js',
       format: 'umd',
       name: 'justInCase',
-      esModule: false
-    }
+      esModule: false,
+    },
   },
   {
     input: 'src/index.js',
     output: {
       file: 'esm/index.js',
-      format: 'esm'
-    }
-  }
+      format: 'esm',
+    },
+  },
 ];
