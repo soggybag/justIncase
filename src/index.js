@@ -14,12 +14,12 @@ import {
 
 // Added major changes
 
-String.prototype.capitalize = function() {
+String.prototype.capitalize = function () {
   return capitalize(this)
 }
 
 // Capitalize all
-String.prototype.capitalizeAll = function() {
+String.prototype.capitalizeAll = function () {
   return capitalizeAll(this)
 }
 
