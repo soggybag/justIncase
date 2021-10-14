@@ -1,6 +1,5 @@
 # justIncase
 
-
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/soggybag/justincase)
 ![FooBar](https://img.shields.io/badge/Foo-Bar-%23f0f)
 ![npm](https://img.shields.io/npm/v/@soggybag/justincase)
